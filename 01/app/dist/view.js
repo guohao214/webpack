@@ -91,11 +91,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 console.log(_template2.default);
 
 new Promise(function(resolve) { resolve(); }).then((function () {
-	window.onload = function () {
+	setTimeout(function () {
 		var body = document.getElementsByTagName('body')[0];
 		console.log(body);
 		body.innerHTML = _template2.default;
-	};
+	}, 3000);
 }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 
 /***/ })
