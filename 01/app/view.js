@@ -2,7 +2,7 @@ import template from './template.html'
 
 console.log(template)
 
-alert(222333)
+alert(666)
 
 require.ensure([], () => {
 	setTimeout(function() {
